@@ -1,0 +1,64 @@
+Start
+|
+|--- [Initialize Data Structures]
+|    |
+|    |-- classrooms (HashMap)
+|    |-- students (HashMap)
+|    |-- assignments (HashMap)
+|
+|--- [Display Menu]
+|    |
+|    |-- Print Virtual Classroom Manager Menu:
+|    |   - Add Classroom
+|    |   - Add Student
+|    |   - Schedule Assignment
+|    |   - Submit Assignment
+|    |   - Exit
+|    |
+|    |-- Read User's Choice (choice)
+|
+|--- [Process User's Choice]
+|    |
+|    |-- If choice == 1 (Add Classroom)
+|    |    |
+|    |    |-- Read Classroom Name (className)
+|    |    |-- Create Classroom object
+|    |    |-- Add Classroom to classrooms HashMap
+|    |    |-- Display "Classroom Addition" message
+|    |
+|    |-- If choice == 2 (Add Student)
+|    |    |
+|    |    |-- Read Student ID (studentId)
+|    |    |-- Read Classroom Name (studentClassName)
+|    |    |-- Create Student object
+|    |    |-- Add Student to students HashMap
+|    |    |-- Display "Student Addition" message
+|    |
+|    |-- If choice == 3 (Schedule Assignment)
+|    |    |
+|    |    |-- Read Classroom Name (assignmentClassName)
+|    |    |-- Read Assignment Details (assignmentDetails)
+|    |    |-- Create Assignment object
+|    |    |-- Add Assignment to assignments HashMap
+|    |    |-- Display "Assignment Scheduled" message
+|    |
+|    |-- If choice == 4 (Submit Assignment)
+|    |    |
+|    |    |-- Read Student ID (submitStudentId)
+|    |    |-- Read Classroom Name (submitClassName)
+|    |    |-- Read Assignment Details (submitAssignmentDetails)
+|    |    |-- Display "Assignment submitted" message
+|    |
+|    |-- If choice == 5 (Exit)
+|         |
+|         |-- Display "Exiting Virtual Classroom Manager" message
+|         |-- Close Scanner
+|         |-- Exit Program
+|
+|--- [Invalid Choice]
+|    |
+|    |-- Display "Invalid choice. Please enter a valid option." message
+|
+|--- Repeat
+|
+End

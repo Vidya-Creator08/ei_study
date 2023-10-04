@@ -1,0 +1,52 @@
+Virtual Classroom Manager Menu:
+1. Add Classroom
+2. Add Student
+3. Schedule Assignment
+4. Submit Assignment
+5. Exit
+Enter your choice: 1
+Enter the classroom name: Math101
+Classroom Addition: "Classroom Math101 has been created."
+
+Virtual Classroom Manager Menu:
+1. Add Classroom
+2. Add Student
+3. Schedule Assignment
+4. Submit Assignment
+5. Exit
+Enter your choice: 2
+Enter student ID: 101
+Enter the classroom name: Math101
+Student Addition: "Student 101 has been enrolled in Math101."
+
+Virtual Classroom Manager Menu:
+1. Add Classroom
+2. Add Student
+3. Schedule Assignment
+4. Submit Assignment
+5. Exit
+Enter your choice: 3
+Enter the classroom name: Math101
+Enter assignment details: Homework 1
+Assignment Scheduled: "Assignment for Math101 has been scheduled."
+
+Virtual Classroom Manager Menu:
+1. Add Classroom
+2. Add Student
+3. Schedule Assignment
+4. Submit Assignment
+5. Exit
+Enter your choice: 4
+Enter student ID: 101
+Enter the classroom name: Math101
+Enter assignment details: Completed Homework 1
+Assignment submitted by Student 101 in Math101: Completed Homework 1
+
+Virtual Classroom Manager Menu:
+1. Add Classroom
+2. Add Student
+3. Schedule Assignment
+4. Submit Assignment
+5. Exit
+Enter your choice: 5
+Exiting Virtual Classroom Manager.
